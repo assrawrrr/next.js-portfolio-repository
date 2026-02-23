@@ -1,428 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- REPLACE: Update title with [NAME] -->
-  <title>[NAME] — Architect & Venture Builder</title>
-  <meta name="description" content="[ONE LINE IDENTITY]" />
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Fonts: Cormorant Garamond (display) + DM Sans (body) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asrar Ahmed | Architect & Systems Builder</title>
+    <meta name="description" content="Personal branding of Asrar Ahmed - Architect focusing on biophilic design and sustainable systems.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Playfair Display for Serifs, Inter for Sans-serif -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════
-       NAVBAR
-  ═══════════════════════════════════════════ -->
-  <nav class="nav" id="nav">
-    <div class="nav__inner">
-      <!-- REPLACE: [NAME] with your name -->
-      <a href="#hero" class="nav__name">[NAME]</a>
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
-        <span></span><span></span>
-      </button>
-      <ul class="nav__links" id="navLinks">
-        <li><a href="#work" class="nav__link">Work</a></li>
-        <li><a href="#proof" class="nav__link">Proof</a></li>
-        <li><a href="#notes" class="nav__link">Notes</a></li>
-        <li><a href="#contact" class="nav__link">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- ═══════════════════════════════════════════
-       HERO
-  ═══════════════════════════════════════════ -->
-  <section class="hero" id="hero">
-    <div class="hero__inner container">
-      <p class="hero__eyebrow reveal">Architect · Venture Builder</p>
-      <!-- REPLACE: [NAME] -->
-      <h1 class="hero__name reveal">
-        [NAME]<span class="hero__dot">.</span>
-      </h1>
-      <!-- REPLACE: [ONE LINE IDENTITY] — e.g. "I design spaces and build companies with the same precision." -->
-      <p class="hero__identity reveal">[ONE LINE IDENTITY]</p>
-      <!-- REPLACE: Two lines of reflective positioning -->
-      <p class="hero__sub reveal">
-        Every project is an act of thinking made physical.<br />
-        Every venture is a space designed for people to grow into.
-      </p>
-      <div class="hero__cta reveal">
-        <a href="#contact" class="btn btn--primary">Get in touch</a>
-        <a href="#proof" class="btn btn--ghost">See the work</a>
-      </div>
-    </div>
-    <!-- Decorative architectural rule -->
-    <div class="hero__rule"></div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       AFFILIATIONS MARQUEE
-  ═══════════════════════════════════════════ -->
-  <section class="affiliations" id="affiliations">
-    <div class="container">
-      <p class="affiliations__label">Affiliations &amp; collaborations</p>
-    </div>
-    <div class="marquee" id="marquee">
-      <div class="marquee__track">
-        <!-- REPLACE: Swap SVG placeholders with real logos -->
-        <!-- Logo 1 -->
-        <div class="marquee__item">
-          <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="affil-logo">
-            <rect x="1" y="1" width="118" height="38" rx="2" stroke="currentColor" stroke-width="1.2"/>
-            <text x="60" y="24" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" font-weight="500" fill="currentColor">STUDIO A</text>
-          </svg>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Asrar Ahmed</a>
+            <div class="nav-links">
+                <a href="#proof">Work</a>
+                <a href="#why-i-build">Principles</a>
+                <a href="#notes">Notes</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </div>
         </div>
-        <!-- Logo 2 -->
-        <div class="marquee__item">
-          <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="affil-logo">
-            <polygon points="60,4 116,36 4,36" stroke="currentColor" stroke-width="1.2" fill="none"/>
-            <text x="60" y="28" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" font-weight="500" fill="currentColor">VENTURES</text>
-          </svg>
+    </nav>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="fade-in">Asrar Ahmed</h1>
+                <p class="subheading fade-in">Architect • Biophilic & Sustainable Design • Systems-minded Builder</p>
+                <div class="hero-bullets fade-in">
+                    <span>Refining the dialogue between nature and structure.</span>
+                    <span>Building systems with integrity and longevity.</span>
+                </div>
+                <div class="hero-btns fade-in">
+                    <a href="#contact" class="btn btn-primary">Let’s talk</a>
+                    <a href="#proof" class="btn btn-secondary">See my work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- AFFILIATIONS MARQUEE -->
+        <section class="affiliations">
+            <p class="section-label">Affiliations & collaborations</p>
+            <div class="marquee">
+                <div class="marquee-content">
+                    <!-- ADD REAL LOGO PATHS HERE -->
+                    <div class="logo-item"><span>KVA</span></div>
+                    <div class="logo-item"><span>AMANA</span></div>
+                    <div class="logo-item"><span>Studio A</span></div>
+                    <div class="logo-item"><span>GreenGrid</span></div>
+                    <div class="logo-item"><span>Nexus Dev</span></div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="logo-item"><span>KVA</span></div>
+                    <div class="logo-item"><span>AMANA</span></div>
+                    <div class="logo-item"><span>Studio A</span></div>
+                    <div class="logo-item"><span>GreenGrid</span></div>
+                    <div class="logo-item"><span>Nexus Dev</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY I BUILD -->
+        <section id="why-i-build" class="why-i-build container">
+            <div class="grid-2">
+                <div class="text-block">
+                    <h2 class="reveal">Why I Build</h2>
+                    <p class="reflective-text reveal">
+                        Architecture is more than the arrangement of stone and glass; it is the infrastructure of human experience. I believe in buildings that breathe and systems that endure. My approach merges the poetic stillness of biophilic design with the rigorous efficiency of modern business architecture.
+                    </p>
+                </div>
+                <div class="principles reveal">
+                    <ul>
+                        <li><strong>Intentionality:</strong> Every line has a purpose.</li>
+                        <li><strong>Sustainability:</strong> Resource-conscious from the foundation up.</li>
+                        <li><strong>Integrity:</strong> High-trust systems for high-stakes projects.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHAT I DO (SERVICES) -->
+        <section class="services bg-alt">
+            <div class="container">
+                <h2 class="reveal">Expertise</h2>
+                <div class="card-grid">
+                    <div class="card reveal">
+                        <h3>Biophilic Architecture</h3>
+                        <p>Integrating natural elements into modern structures to improve well-being and environmental harmony.</p>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Interior Design Systems</h3>
+                        <p>Scalable, modular, and high-aesthetic interior frameworks for commercial and residential luxury.</p>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Project Management</h3>
+                        <p>Overseeing the lifecycle of complex builds with surgical precision and clear communication.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROOF (PORTFOLIO) -->
+        <section id="proof" class="proof container">
+            <h2 class="reveal">Selected Proof</h2>
+            <div class="proof-grid">
+                <!-- Project 1 -->
+                <div class="proof-item reveal">
+                    <div class="proof-img-placeholder"></div>
+                    <div class="proof-content">
+                        <h3>The Atrium House</h3>
+                        <p>A residential study in light and natural ventilation in the heart of Dubai.</p>
+                        <div class="tags">
+                            <span>Sustainability</span><span>Luxury</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="proof-item reveal">
+                    <div class="proof-img-placeholder"></div>
+                    <div class="proof-content">
+                        <h3>Modular Office Systems</h3>
+                        <p>A high-efficiency interior framework designed for rapid GCC expansion.</p>
+                        <div class="tags">
+                            <span>Systems</span><span>Workplace</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="proof-item reveal">
+                    <div class="proof-img-placeholder"></div>
+                    <div class="proof-content">
+                        <h3>Biophilic Retail Hub</h3>
+                        <p>Merging commercial viability with indoor botanical ecosystems.</p>
+                        <div class="tags">
+                            <span>Retail</span><span>Biophilic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOTES -->
+        <section id="notes" class="notes bg-alt">
+            <div class="container">
+                <h2 class="reveal">Notes</h2>
+                <div class="notes-grid">
+                    <div class="note-card reveal" onclick="openNote('note-1')">
+                        <span class="note-date">Oct 2023</span>
+                        <h3>The Ethics of Materials</h3>
+                        <p>Why choosing stone over synthetic isn't just an aesthetic choice, but a moral one...</p>
+                    </div>
+                    <div class="note-card reveal" onclick="openNote('note-2')">
+                        <span class="note-date">Aug 2023</span>
+                        <h3>Systems vs. Sketches</h3>
+                        <p>How business logic improves the creative output of architecture firms.</p>
+                    </div>
+                    <div class="note-card reveal" onclick="openNote('note-3')">
+                        <span class="note-date">June 2023</span>
+                        <h3>Quiet Luxury in GCC</h3>
+                        <p>The shift from opulence to understated quality in regional design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact container">
+            <div class="contact-box reveal">
+                <h2>Let’s build something meaningful.</h2>
+                <p>Available for select collaborations and architectural consulting.</p>
+                <div class="contact-links">
+                    <a href="mailto:hello@asrarahmed.com" class="contact-link">hello@asrarahmed.com</a>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">WhatsApp</a>
+                    </div>
+                </div>
+                <p class="closing-line">Grounded in India. Serving the GCC.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- SIMPLE MODAL FOR NOTES -->
+    <div id="note-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
         </div>
-        <!-- Logo 3 -->
-        <div class="marquee__item">
-          <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="affil-logo">
-            <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.2"/>
-            <text x="70" y="25" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" font-weight="500" fill="currentColor">DESIGN CO.</text>
-          </svg>
-        </div>
-        <!-- Logo 4 -->
-        <div class="marquee__item">
-          <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="affil-logo">
-            <line x1="10" y1="20" x2="110" y2="20" stroke="currentColor" stroke-width="1.2"/>
-            <text x="60" y="14" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="10" font-weight="500" fill="currentColor">URBAN LAB</text>
-          </svg>
-        </div>
-        <!-- Logo 5 -->
-        <div class="marquee__item">
-          <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="affil-logo">
-            <rect x="10" y="10" width="20" height="20" stroke="currentColor" stroke-width="1.2"/>
-            <text x="72" y="25" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" font-weight="500" fill="currentColor">FOUNDATION</text>
-          </svg>
-        </div>
-        <!-- Logo 6 -->
-        <div class="marquee__item">
-          <svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="affil-logo">
-            <ellipse cx="25" cy="20" rx="14" ry="9" stroke="currentColor" stroke-width="1.2"/>
-            <text x="75" y="25" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" font-weight="500" fill="currentColor">PARTNERS</text>
-          </svg>
-        </div>
-        <!-- Cloned for seamless loop — JS handles this -->
-      </div>
     </div>
-  </section>
 
-  <!-- ═══════════════════════════════════════════
-       WHY I BUILD
-  ═══════════════════════════════════════════ -->
-  <section class="why" id="why">
-    <div class="container why__inner">
-      <div class="why__left">
-        <span class="section-label">Why I build</span>
-        <h2 class="why__heading reveal">
-          Spaces are<br /><em>arguments</em><br />made tangible.
-        </h2>
-      </div>
-      <div class="why__right">
-        <!-- REPLACE: [WHY I BUILD PARAGRAPH] — keep the tone reflective and first-person -->
-        <p class="why__body reveal">
-          [WHY I BUILD PARAGRAPH — e.g. "I came to architecture not through drawing but through questions. Why does a room make people stay or leave? Why does a city feel alive in one block and dead in the next? Those questions led me to buildings, then to companies, then to the realization that both are attempts at the same thing: creating conditions for human flourishing. I don't separate the two. A well-structured venture and a well-proportioned space share a grammar — clarity of intent, honesty of material, respect for the person who must inhabit it."]
-        </p>
-        <ul class="why__principles reveal">
-          <!-- REPLACE: Edit the three principles to reflect your actual values -->
-          <li>
-            <span class="principle__num">01</span>
-            <div>
-              <strong>Integrity of structure.</strong>
-              What holds a building up should also hold an idea up — no decoration that lies about what's beneath.
-            </div>
-          </li>
-          <li>
-            <span class="principle__num">02</span>
-            <div>
-              <strong>Scale of the human body.</strong>
-              Every decision I make is tested against one question: how does this feel to stand inside?
-            </div>
-          </li>
-          <li>
-            <span class="principle__num">03</span>
-            <div>
-              <strong>Patience as a method.</strong>
-              The best outcomes — in buildings and in businesses — refuse to be rushed.
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    <footer>
+        <p>&copy; 2024 Asrar Ahmed. All rights reserved.</p>
+    </footer>
 
-  <!-- ═══════════════════════════════════════════
-       WHAT I DO
-  ═══════════════════════════════════════════ -->
-  <section class="work" id="work">
-    <div class="container">
-      <span class="section-label">What I do</span>
-      <div class="work__grid">
-
-        <article class="work__card reveal">
-          <div class="work__card-icon">
-            <!-- Leaf / biophilic icon -->
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24 44C24 44 8 34 8 20C8 11.163 15.163 4 24 4C32.837 4 40 11.163 40 20C40 34 24 44 24 44Z" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="24" y1="44" x2="24" y2="20" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="24" y1="30" x2="32" y2="22" stroke="currentColor" stroke-width="1"/>
-              <line x1="24" y1="36" x2="16" y2="28" stroke="currentColor" stroke-width="1"/>
-            </svg>
-          </div>
-          <h3>Biophilic Architecture</h3>
-          <p>Designing buildings that breathe — where natural systems and constructed form are not in opposition but in conversation.</p>
-        </article>
-
-        <article class="work__card reveal">
-          <div class="work__card-icon">
-            <!-- Interior / room icon -->
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="14" width="36" height="26" rx="1" stroke="currentColor" stroke-width="1.5"/>
-              <polyline points="6,14 24,6 42,14" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="20" y1="40" x2="20" y2="28" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="28" y1="40" x2="28" y2="28" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="20" y1="28" x2="28" y2="28" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
-          </div>
-          <h3>Interiors</h3>
-          <p>Interiors as edited landscapes — every material chosen for its honesty, every proportion measured against the body at rest.</p>
-        </article>
-
-        <article class="work__card reveal">
-          <div class="work__card-icon">
-            <!-- Project management / grid icon -->
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="6" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
-              <rect x="28" y="6" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
-              <rect x="6" y="28" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
-              <rect x="28" y="28" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
-          </div>
-          <h3>Project Management</h3>
-          <p>Holding complexity without losing clarity. From concept to completion, the invisible architecture of delivery is where I earn trust.</p>
-        </article>
-
-        <article class="work__card reveal">
-          <div class="work__card-icon">
-            <!-- Business / venture icon -->
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="24" y1="6" x2="24" y2="42" stroke="currentColor" stroke-width="1"/>
-              <line x1="6" y1="24" x2="42" y2="24" stroke="currentColor" stroke-width="1"/>
-              <ellipse cx="24" cy="24" rx="10" ry="18" stroke="currentColor" stroke-width="1"/>
-            </svg>
-          </div>
-          <h3>Business Architecture</h3>
-          <p>Structuring ventures the way I structure buildings — clear foundations, load-bearing ideas, space left for the unexpected to happen.</p>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       PROOF (Projects)
-  ═══════════════════════════════════════════ -->
-  <section class="proof" id="proof">
-    <div class="container">
-      <span class="section-label">Proof</span>
-      <p class="proof__sub reveal">Selected projects across scales and disciplines.</p>
-      <div class="proof__grid">
-
-        <!-- REPLACE: Each card — update title, tags, year, and description -->
-        <article class="proof__card reveal">
-          <div class="proof__thumb">
-            <!-- Placeholder image area — replace with <img src="assets/project-1.jpg" alt="..."> -->
-            <div class="proof__thumb-ph">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="10" y="15" width="60" height="35" stroke="currentColor" stroke-width="1"/><line x1="10" y1="15" x2="40" y2="5" stroke="currentColor" stroke-width="1"/><line x1="70" y1="15" x2="40" y2="5" stroke="currentColor" stroke-width="1"/></svg>
-            </div>
-          </div>
-          <div class="proof__meta">
-            <span class="proof__year">2023</span>
-            <h3 class="proof__title">The Still House</h3>
-            <p class="proof__desc">A private residence designed around silence — natural materials, controlled light, zero ornament.</p>
-            <div class="proof__tags">
-              <span class="tag">Architecture</span>
-              <span class="tag">Residential</span>
-              <span class="tag">Biophilic</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="proof__card reveal">
-          <div class="proof__thumb">
-            <div class="proof__thumb-ph">
-              <svg viewBox="0 0 80 60" fill="none"><circle cx="40" cy="30" r="20" stroke="currentColor" stroke-width="1"/><line x1="40" y1="10" x2="40" y2="50" stroke="currentColor" stroke-width="0.7"/><line x1="20" y1="30" x2="60" y2="30" stroke="currentColor" stroke-width="0.7"/></svg>
-            </div>
-          </div>
-          <div class="proof__meta">
-            <span class="proof__year">2022</span>
-            <h3 class="proof__title">Meridian Ventures</h3>
-            <p class="proof__desc">Co-founded and structured a climate-tech venture from zero to seed-round. Strategy, team, and operations architecture.</p>
-            <div class="proof__tags">
-              <span class="tag">Venture Building</span>
-              <span class="tag">Climate</span>
-              <span class="tag">Strategy</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="proof__card reveal">
-          <div class="proof__thumb">
-            <div class="proof__thumb-ph">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="5" y="5" width="30" height="50" stroke="currentColor" stroke-width="1"/><rect x="45" y="20" width="30" height="35" stroke="currentColor" stroke-width="1"/><line x1="5" y1="55" x2="75" y2="55" stroke="currentColor" stroke-width="1.2"/></svg>
-            </div>
-          </div>
-          <div class="proof__meta">
-            <span class="proof__year">2021</span>
-            <h3 class="proof__title">Corridor Cultural Centre</h3>
-            <p class="proof__desc">A mixed-use cultural facility threading through an existing urban block — built on minimal footprint, maximum presence.</p>
-            <div class="proof__tags">
-              <span class="tag">Architecture</span>
-              <span class="tag">Public</span>
-              <span class="tag">Urban</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="proof__card reveal">
-          <div class="proof__thumb">
-            <div class="proof__thumb-ph">
-              <svg viewBox="0 0 80 60" fill="none"><polyline points="10,50 25,20 40,35 55,15 70,50" stroke="currentColor" stroke-width="1.2" fill="none"/><line x1="10" y1="50" x2="70" y2="50" stroke="currentColor" stroke-width="0.7"/></svg>
-            </div>
-          </div>
-          <div class="proof__meta">
-            <span class="proof__year">2020</span>
-            <h3 class="proof__title">Atlas Interior Systems</h3>
-            <p class="proof__desc">Led the full project management and interiors program for a 3,000 m² commercial fit-out across three simultaneous phases.</p>
-            <div class="proof__tags">
-              <span class="tag">Interiors</span>
-              <span class="tag">PM</span>
-              <span class="tag">Commercial</span>
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       NOTES (Blog / Modal)
-  ═══════════════════════════════════════════ -->
-  <section class="notes" id="notes">
-    <div class="container">
-      <span class="section-label">Notes</span>
-      <p class="notes__sub reveal">Occasional writing on space, systems, and the act of making.</p>
-      <div class="notes__grid">
-
-        <!-- REPLACE: Update titles, dates, excerpts, and full body text in data-* attributes -->
-        <article class="note__card reveal"
-          data-title="On the patience of concrete"
-          data-date="November 2024"
-          data-body="There is something deeply instructive about concrete. It cannot be hurried. You pour it, and then you wait — not passively, but attentively. The mould holds the form while the material finds its strength from within. I have started to think about early-stage ventures the same way. The impulse is always to strip the formwork early, to show the world what you have made. But the material is not ready. The strength is still developing inside. Good building — in architecture and in business — is an exercise in trusting processes you cannot see.">
-          <span class="note__date">November 2024</span>
-          <h3 class="note__title">On the patience of concrete</h3>
-          <p class="note__excerpt">There is something deeply instructive about concrete. It cannot be hurried. The mould holds the form while the material finds its strength from within...</p>
-          <span class="note__read">Read note →</span>
-        </article>
-
-        <article class="note__card reveal"
-          data-title="Why I stopped calling it 'space planning'"
-          data-date="August 2024"
-          data-body="The phrase 'space planning' always struck me as a small lie. It implies that space is inert — a container to be organised. But every space I have ever designed pushed back. It had preferences. It wanted to hold a certain quality of light. It resisted partitions in one direction and welcomed them in another. What I actually do is closer to negotiation than planning. I am not arranging furniture in a void. I am entering into a dialogue with volume, proportion, and the lived behaviour of the people who will inhabit it. That is a different practice entirely — and it deserves a different name.">
-          <span class="note__date">August 2024</span>
-          <h3 class="note__title">Why I stopped calling it "space planning"</h3>
-          <p class="note__excerpt">The phrase 'space planning' always struck me as a small lie. It implies that space is inert — a container to be organised. But every space I have ever designed pushed back...</p>
-          <span class="note__read">Read note →</span>
-        </article>
-
-        <article class="note__card reveal"
-          data-title="The venture as a building type"
-          data-date="May 2024"
-          data-body="I want to propose a new typology: the venture as a building type. Not metaphorically — analytically. A building has a programme (what it is for), a structure (what holds it up), an envelope (how it meets the world), and a circulation (how people move through it). A venture has the same. The programme is the problem it solves. The structure is the business model. The envelope is the brand — the surface through which it negotiates with the outside. The circulation is the team and the processes that let people do their best work inside it. When I help build companies, I am reading blueprints. When I design buildings, I am writing them.">
-          <span class="note__date">May 2024</span>
-          <h3 class="note__title">The venture as a building type</h3>
-          <p class="note__excerpt">I want to propose a new typology: the venture as a building type. Not metaphorically — analytically. A building has a programme, a structure, an envelope, and a circulation...</p>
-          <span class="note__read">Read note →</span>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       CONTACT
-  ═══════════════════════════════════════════ -->
-  <section class="contact" id="contact">
-    <div class="container contact__inner">
-      <span class="section-label">Contact</span>
-      <h2 class="contact__heading reveal">
-        Let's make<br /><em>something real.</em>
-      </h2>
-      <p class="contact__body reveal">
-        Whether it's a building, a venture, or just a conversation worth having —
-        I'm reachable. No contact form. No automated response.
-      </p>
-      <div class="contact__links reveal">
-        <!-- REPLACE: [EMAIL] with your email address -->
-        <a href="mailto:[EMAIL]" class="contact__btn contact__btn--email">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
-            <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/>
-          </svg>
-          [EMAIL]
-        </a>
-        <!-- REPLACE: [WHATSAPP LINK] with https://wa.me/YOURNUMBER -->
-        <a href="[WHATSAPP LINK]" target="_blank" rel="noopener" class="contact__btn contact__btn--whatsapp">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
-            <path d="M21 11.5a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0z"/><path d="M8.5 10c0 3 2.5 5.5 5.5 5.5l1-2-1.5-1-1 1c-.5-.5-1.5-1.5-2-2l1-1-1-1.5-2 1z"/>
-          </svg>
-          WhatsApp
-        </a>
-        <!-- REPLACE: [LINKEDIN LINK] with your LinkedIn URL -->
-        <a href="[LINKEDIN LINK]" target="_blank" rel="noopener" class="contact__btn contact__btn--linkedin">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
-            <rect x="2" y="2" width="20" height="20" rx="3"/><line x1="8" y1="11" x2="8" y2="17"/><line x1="8" y1="8" x2="8" y2="8.5"/><path d="M12 11v6M12 14a3 3 0 0 1 6 0v3"/>
-          </svg>
-          LinkedIn
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
-       FOOTER
-  ═══════════════════════════════════════════ -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <!-- REPLACE: [NAME] -->
-      <span class="footer__name">[NAME]</span>
-      <span class="footer__copy">© <span id="year"></span></span>
-    </div>
-  </footer>
-
-  <!-- ═══════════════════════════════════════════
-       MODAL (Notes)
-  ═══════════════════════════════════════════ -->
-  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal__backdrop" id="modalBackdrop"></div>
-    <div class="modal__box">
-      <button class="modal__close" id="modalClose" aria-label="Close">✕</button>
-      <p class="modal__date" id="modalDate"></p>
-      <h2 class="modal__title" id="modalTitle"></h2>
-      <div class="modal__body" id="modalBody"></div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
